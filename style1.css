@@ -1,0 +1,48 @@
+header{
+    background-color: #4a90e2;
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+    padding:20px;
+    font-style: oblique;
+    border: 2px dashed black;
+    /* margin:20px; */
+}
+.card{
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    border:4px solid yellowgreen;
+    background-color: rgb(7, 181, 181);
+    text-decoration:wavy;
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+}
+h2{
+    color: red;
+}
+.card{
+     background-color:lightgray;
+}
+#profile{
+     color:blue;
+}
+.box{
+    width: 300px;
+    height:300px;
+    border:2px solid black;
+    padding:10px;
+    font-style: oblique;
+    font-weight: 400;
+}
+.block{
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin:10px;
+}
+.inline{
+    display: inline;
+    background-color: ;
+}

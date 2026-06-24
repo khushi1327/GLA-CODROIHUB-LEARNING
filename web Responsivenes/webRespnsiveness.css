@@ -1,0 +1,27 @@
+.wellcomeHeading{
+    font-size: 30px;
+}
+@media(max-width:600px){
+    .wellcomeHeading{
+        font-size: 25px;
+        background:rgb(248, green, blue) ;
+    }
+.nav{
+    flex-direction: column;
+
+}
+.card{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    margin-top: 10px;
+}
+.decor{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+
