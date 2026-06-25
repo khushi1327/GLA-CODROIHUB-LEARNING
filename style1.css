@@ -46,3 +46,98 @@ h2{
     display: inline;
     background-color: ;
 }
+ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px; 
+    list-style: none;
+}
+li{
+    border:3px solid black;
+    padding:15px;
+    border-radius: 10px;
+}
+li:hover{
+        background-color: lightcoral;
+        cursor: pointer;
+
+}
+.box{
+    border:2px solid black;
+    padding:50px;
+    margin:20px;
+    text-align: center;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+nav{
+    background-color: lightblue;
+    padding: 15px;
+    margin:5px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.intro{
+    border:2px solid lightblue;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+}
+.intro p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.project-card{
+     border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+
+}
+.project-card:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+
+}
+.skills-list{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    list-style:none;
+}
+
+.skills-list li{
+    border:2px solid black;
+    padding:15px;
+    border-radius:10px;
+}
+
+.skills-list li:hover{
+    background-color:lightcoral;
+    cursor:pointer;
+}
