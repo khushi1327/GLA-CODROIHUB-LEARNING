@@ -1,0 +1,24 @@
+.ball{
+    width:100px;
+    height:100px;
+    background-color: red;
+    border-radius: 50%;
+    animation:bounce 1s infinite;
+
+}
+.ball:hover{
+    background-color: blue;
+}
+@keyframes bounce{
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-150px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+}
