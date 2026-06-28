@@ -1,4 +1,14 @@
+body{
+    background-color: rgb(221, 221, 13);
+    /* margin:50px;
+    padding:50px; */
+    color: rgb(14, 251, 251);
+    height: max-content;
+    width:max-content;
+}
+
 .ball{
+    text-align: center;
     width:100px;
     height:100px;
     background-color: red;
@@ -21,4 +31,163 @@
     100%{
         transform:translateY(0);
     }
+}
+.loader{
+    width:80px;
+    height:80px;
+    border: 10px solid grey;
+    border-top: 4px dashed blue;
+    border-radius: 50%;
+}
+.loader:hover{
+    background-color: black;
+}
+.box{
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+    animation:colors 5s infinite;
+
+}
+@keyframes colors{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: red;;
+    }
+
+}
+.grow-box{
+    width:100px;
+    height:100px;
+    background-color: purple;
+    animation: grow 2s infinite;
+}
+@keyframes grow{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.5);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+.slide-text{
+    font-size: 24px;
+    font-weight: bold;
+    animation:slide 2s infinite alternate;
+}
+@keyframes slide{
+    0%{
+        transform:translateX(-100px);
+    }
+
+    100%{
+        transform:translateX(100px);
+    }
+
+}
+.rectangle{
+    width:150px;
+    height:80px;
+    background-color: orangered;
+    animation: rotateRect 3s linear infinite;
+}
+@keyframes rotateRect{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.floating-card{
+    width: 200px;
+    padding:20px;
+    background-color: cadetblue;
+    color:black;
+    text-align:center;
+    border-radius:10px;
+    box-shadow: 0 5px 15px grey;
+     animation:float 2s ease-in-out infinite alternate;
+}
+@keyframes float{
+
+    0%{
+        transform:translateX(-20px);
+    }
+
+    100%{
+        transform:translateX(20px);
+    }
+
+}
+.heart{
+    font-size:80px;
+    text-align:center;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat{
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.4);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+.multi-box{
+    width:100px;
+    height:100px;
+    background-color: deeppink;
+    animation: moveRotate 3s infinite;
+}
+@keyframes moveRotate{
+
+    0%{
+        transform: translateX(0) rotate(0deg);
+    }
+
+    100%{
+        transform: translateX(300px) rotate(360deg);
+    }
+
+} 
+.rocket{
+    font-size: 80px;
+    text-align: center;
+    animation: launch 2s infinite alternate;
+}
+@keyframes launch{
+
+    0%{
+        transform:translateY(100px);
+    }
+
+    100%{
+        transform:translateY(-150px);
+    }
+
 }
