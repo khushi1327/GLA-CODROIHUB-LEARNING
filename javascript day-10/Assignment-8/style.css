@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+/* Question 1 */
+
+.list1 li:first-child{
+    color: red;
+}
+
+/* Question 2 */
+
+input{
+    padding: 10px;
+}
+
+input:focus{
+    border: 2px solid green;
+    outline: none;
+}
+
+/* Question 3 */
+
+button{
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+/* Question 4 */
+
+.list2 li{
+    padding: 8px;
+}
+
+.list2 li:nth-child(odd){
+    background-color: lightgray;
+}
